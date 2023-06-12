@@ -40,10 +40,9 @@ button {
     color: #fff;
 }
 
-#botão-cancelar {
+#botao-cancelar {
     background-color: red;
 }
-
 
 ul {
     display: flex;
@@ -58,7 +57,7 @@ ul li {
     overflow-y: hidden;
 }
 
-ul li img{
+ul li img {
     width: 100%;
 }
 
@@ -73,11 +72,11 @@ ul li img{
     transition: all ease.5s;
 } 
 
-.overlay-imagem-link a{
+.overlay-imagem-link a {
     color: #fff;
     text-decoration: none;
 }
 
-ul li: hover.overlay-imagem-link {
+ul li:hover .overlay-imagem-link {
     opacity: 1;
 }
