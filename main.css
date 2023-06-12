@@ -37,24 +37,25 @@ button {
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
-    color: #fff
+    color: #fff;
 }
 
 #botão-cancelar {
-   background-color: red; 
+    background-color: red;
 }
+
 
 ul {
     display: flex;
     flex-wrap: wrap;
 }
 
-ul li{
+ul li {
     max-width: 25%;
     list-style: none;
     position: relative;
     max-height: 280px;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 ul li img{
@@ -63,7 +64,7 @@ ul li img{
 
 .overlay-imagem-link {
     padding: 16px;
-    background-color: rgba (0,0,0,0,7);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     bottom: 0;
     left: 0;
